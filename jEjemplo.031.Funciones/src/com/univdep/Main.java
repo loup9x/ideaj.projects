@@ -27,7 +27,18 @@ public class Main {
         el programa.
         */
 	    ImprimirMensaje();
+
+        // Salto de linea para separar mensajes
         System.out.println();
+
+        /*
+        Se realiza la llamada o invocación a la función,
+        y esta vez, se utiliza el concepto de argumento.
+        Que es un tipo de dato, que contiene información
+        a procesar. Siendo este caso el mostrar un mensaje
+        ya un poco más elaborado. Y concluyendo este, vuelve
+        a continuar el programa.
+         */
         ImprimirTexto(":: Hola mundo!!!\nFunción con argumentos");
     }
 }
