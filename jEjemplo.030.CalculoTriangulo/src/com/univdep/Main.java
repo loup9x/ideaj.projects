@@ -1,5 +1,6 @@
 package com.univdep;
 
+// Declaración de bibliotecas
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
