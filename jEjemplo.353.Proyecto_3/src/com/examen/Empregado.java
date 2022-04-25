@@ -38,4 +38,9 @@ public class Empregado {
     public double getSalario() {
         return this.salario;
     }
+
+    public void aumentoSalario(double aumento) {
+        if(0 < aumento && aumento <= 100)
+            this.salario = this.salario + this.salario * aumento / 100;
+    }
 }

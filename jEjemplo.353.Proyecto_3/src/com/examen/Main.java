@@ -17,5 +17,14 @@ public class Main {
         System.out.println("Empregado \t Sobrenome \t\t Salario");
         System.out.println(":." + A.getNome() + "\t\t " + A.getSobreNome() + "\t\t $ " + A.getSalario() +"\n"+
                            ":." + B.getNome() + "\t\t " + B.getSobreNome() + "\t $ " + B.getSalario());
+
+        A.aumentoSalario(10);
+        B.aumentoSalario(10);
+
+        System.out.println();
+
+        System.out.println("Empregado \t Sobrenome \t\t Salario");
+        System.out.println(":." + A.getNome() + "\t\t " + A.getSobreNome() + "\t\t $ " + A.getSalario() +"\n"+
+                           ":." + B.getNome() + "\t\t " + B.getSobreNome() + "\t $ " + B.getSalario());
     }
 }
