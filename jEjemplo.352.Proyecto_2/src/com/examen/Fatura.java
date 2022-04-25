@@ -1,11 +1,13 @@
 package com.examen;
 
 public class Fatura {
+    // Atributos del objeto
     private int numero;
     private String descricao;
     private int quantidade;
     private double preco;
 
+    // Constructor
     public Fatura() {
         this.numero = 0;
         this.descricao = "";
@@ -13,6 +15,7 @@ public class Fatura {
         this.preco = 0;
     }
 
+    // Sección de los métodos get/set del objeto
     public void setNumero(int numero) {
         this.numero = numero;
     }
@@ -46,6 +49,7 @@ public class Fatura {
         return this.preco;
     }
 
+    // Método que calcula el total de la factura.
     public double getTotalFatura() {
         return this.getPreco() * this.quantidade;
     }
