@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        double a = 1;
+        double a = 0;
         double b = -4;
         double c = 4;
 
@@ -28,16 +28,12 @@ public class Main {
         System.out.println();
         comun = comunValue(a, b, c);
         if(comun < 0) {
-            System.out.println("Error :: Los valores que se designaron para este problema no ofrecen solución.");
+            System.out.println("Error :: Los valores que se designaron para este problema no ofrecen solucion.");
         }
         else {
             comun = Math.sqrt(comun);
-            if(a != 0) {
-                valueX1(a, b, comun);
-                valueX2(a, b, comun);
-            } else {
-                System.out.println("Error :: El valor de [a] para este problema no ofrecen solución.");
-            }
+            valueX1(a, b, comun);
+            valueX2(a, b, comun);
         }
     }
 }
