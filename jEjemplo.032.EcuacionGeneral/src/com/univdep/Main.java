@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
+package com.univdep;
 public class Main {
 
     public static double comunValue(double a, double b, double c) {
